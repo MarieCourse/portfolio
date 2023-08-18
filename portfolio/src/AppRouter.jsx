@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/home';
-import About from './pages/About/about';
 import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
 import FicheLogement from './pages/Fiche Logement/fiche-logement';
@@ -12,7 +11,6 @@ function AppRouter() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
         <Route path="/fiches/:id" element={<FicheLogement />} />
       </Routes>

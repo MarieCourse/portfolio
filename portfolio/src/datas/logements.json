@@ -2,7 +2,7 @@
   {
     "id": "c67ab8a7",
     "title": "Booki",
-    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel.webp",
+    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
     ],
@@ -24,7 +24,7 @@
   {
     "id": "c268574",
     "title": "Nina Carducci",
-    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel.webp",
+    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-carducci.webp",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
     ],
@@ -35,7 +35,7 @@
   {
     "id": "d568745",
     "title": "Mon View Grimoire",
-    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel.webp",
+    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire.webp",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
     ],
@@ -46,7 +46,7 @@
   {
     "id": "e146587",
     "title": "Kasa",
-    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel.webp",
+    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa.webp",
     "pictures": [
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
     ],

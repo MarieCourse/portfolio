@@ -2,18 +2,23 @@
     background-color: #f2f2f2
     margin: 0
 
-    &__works
-        background-color: black
+    &__section
         margin: 0
 
-        .worksList
-            max-width: 1440px
-            display: grid
-            grid-template-columns: 1fr 1fr
-            justify-content: space-evenly
-            margin: auto
-            padding: 100px
-            grid-gap: 100px
+        &.works
+            background-color: black
+
+            .worksList
+                max-width: 1440px
+                display: grid
+                grid-template-columns: 1fr 1fr
+                justify-content: space-evenly
+                margin: auto
+                padding: 100px
+                grid-gap: 100px
+
+        &.about
+            background-color: #f2f2f2
 
 @media (max-width: 767px)
     .worksList

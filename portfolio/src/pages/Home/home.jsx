@@ -1,13 +1,14 @@
 import Card from '../../components/Card/Card';
 import logementsData from '../../datas/logements.json';
 import Presentation from '../../components/Presentation/Presentation';
+import About from '../../components/About/About';
 import './home.sass';
 
 function Home() {
   return (
     <div className="main home__main">
       <Presentation />
-      <div className="home__main__works">
+      <div className="home__main__section works">
         {/* Affichage de la liste des logements en utilisant le composant Card */}
         <div className="worksList">
           {/* Utilisation de map pour parcourir les données des logements depuis le fichier "logementsData" */}
@@ -21,6 +22,9 @@ function Home() {
             />
           ))}
         </div>
+      </div>
+      <div className="home__main__section about">
+        <About />
       </div>
     </div>
   );
