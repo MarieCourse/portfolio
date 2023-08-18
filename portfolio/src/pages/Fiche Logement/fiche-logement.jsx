@@ -15,24 +15,15 @@ function FicheLogement() {
   const selectedLogement = logementsData.find((logement) => logement.id === id);
 
   // Déstructuration d'objets pour extraire les propriétés individuelles de l'objet  du logement sélectionné..
-  const {
-    title,
-    location,
-    tags,
-    pictures,
-    host,
-    rating,
-    description,
-    equipments,
-  } = selectedLogement;
+  const { title, mission, tags, description, pictures } = selectedLogement;
 
   return (
     <div className="main" key={id}>
-      <Carousel pictures={pictures} alt={`${title}, ${location}`} />
+      <Carousel pictures={pictures} alt={`${title}, ${mission}`} />
       <div className="fiche__section1">
         <div className="fiche__section1A">
           {/* Composant FicheTitle pour afficher le titre et l'emplacement du logement */}
-          <FicheTitle title={title} location={location} />
+          <FicheTitle title={title} location={mission} />
           {/* Composant Tag pour afficher les étiquettes associées au logement */}
           <Tag tags={tags} />
         </div>
@@ -41,10 +32,6 @@ function FicheLogement() {
         <div>
           {/* Composant Deroulant pour afficher la description du logement */}
           <Deroulant title="Description" content={description} />
-        </div>
-        <div>
-          {/* Composant Deroulant pour afficher les équipements du logement */}
-          <Deroulant title="Équipements" content={equipments} />
         </div>
       </div>
     </div>
