@@ -24,6 +24,10 @@ function Header() {
         <NavLink to="/" className="header__nav__link" activeclassname="active">
           Contact
         </NavLink>
+        {/* Lien vers la page "Works", le lien sera actif lorsqu'on est sur cette page */}
+        <NavLink to="/" className="header__nav__link" activeclassname="active">
+          Works
+        </NavLink>
       </nav>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import './fiche-logement.sass';
+import './Work.sass';
 import { useParams } from 'react-router-dom';
 import logementsData from '../../datas/logements.json';
 import Carousel from '../../components/Carousel/Carousel';
@@ -7,7 +7,7 @@ import FicheTitle from '../../components/FicheTitle/FicheTitle';
 import Tag from '../../components/Tag/Tag';
 import Deroulant from '../../components/Deroulant/Deroulant';
 
-function FicheLogement() {
+function Work() {
   // Récuperation de l'id sur la URL
   const { id } = useParams();
 
@@ -38,4 +38,4 @@ function FicheLogement() {
   );
 }
 
-export default FicheLogement;
+export default Work;

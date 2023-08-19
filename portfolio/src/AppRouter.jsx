@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/home';
 import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
-import FicheLogement from './pages/Fiche Logement/fiche-logement';
+import About from './components/About/About';
+import Work from './pages/Work/Work';
 
 function AppRouter() {
   return (
@@ -11,8 +12,9 @@ function AppRouter() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
-        <Route path="/fiches/:id" element={<FicheLogement />} />
+        <Route path="/fiches/:id" element={<Work />} />
       </Routes>
       <Footer />
     </Router>
