@@ -1,21 +1,17 @@
 import React from 'react';
 import './Work.sass';
 import { useParams } from 'react-router-dom';
-import logementsData from '../../datas/logements.json';
+import projectsData from '../../datas/projects.json';
 import Carousel from '../../components/Carousel/Carousel';
 import FicheTitle from '../../components/FicheTitle/FicheTitle';
 import Tag from '../../components/Tag/Tag';
 import Deroulant from '../../components/Deroulant/Deroulant';
 
 function Work() {
-  // Récuperation de l'id sur la URL
   const { id } = useParams();
-
-  //Récupération de données depuis le fichier JSON grâce à l'ID du logement sélectionné.
-  const selectedLogement = logementsData.find((logement) => logement.id === id);
-
+  const selectedProject = projectsData.find((project) => project.id === id);
   // Déstructuration d'objets pour extraire les propriétés individuelles de l'objet  du logement sélectionné..
-  const { title, mission, tags, description, pictures } = selectedLogement;
+  const { title, mission, tags, description, pictures } = selectedProject;
 
   return (
     <div className="main" key={id}>

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../Header/Header';
 import './Presentation.sass';
 
 function Presentation() {
@@ -24,7 +23,6 @@ function Presentation() {
 
   return (
     <div className="presentation">
-      <Header />
       <div className="presentation__titres">
         <h2>BONJOUR !</h2>
         <div className="typing-animation">
