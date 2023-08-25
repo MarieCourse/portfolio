@@ -4,7 +4,10 @@
     "title": "Booki",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
     "pictures": [
-      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp"
     ],
     "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     "mission": "Création de la page d'accueil d'une agence de voyage",

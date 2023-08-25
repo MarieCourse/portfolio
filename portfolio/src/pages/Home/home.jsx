@@ -3,9 +3,9 @@ import Card from '../../components/Card/Card';
 import projectsData from '../../datas/projects.json';
 import Presentation from '../../components/Presentation/Presentation';
 import About from '../../components/About/About';
-import './home.sass';
+import './Home.sass';
 import Contact from '../../components/Contact/Contact';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 function Home() {
   return (
@@ -17,16 +17,15 @@ function Home() {
         <div className="worksList">
           {/* Utilisation de map pour parcourir les données des projets depuis le fichier "logementsData" */}
           {projectsData.map((project) => (
-            <NavLink to={`/projet/${project.id}`} key={project.id}>
-              {/* /* // Utilisation du composant Card pour afficher chaque logement
-              sous forme de carte */}
-              <Card // Clé unique pour chaque carte (logement)
-                project={project}
-                id={project.id}
-                title={project.title}
-                cover={project.cover}
-              />
-            </NavLink>
+            // {/* /* // Utilisation du composant Card pour afficher chaque logement
+            // sous forme de carte */}
+            <Card // Clé unique pour chaque carte (logement)
+              key={project.id}
+              project={project}
+              id={project.id}
+              title={project.title}
+              cover={project.cover}
+            />
           ))}
         </div>
       </div>
