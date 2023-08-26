@@ -5,13 +5,14 @@
     &__section
         padding-top: 50px
         margin: 0
-        h2
+        > h2
             font-size: 3rem
             text-align: center
 
         &.works, &.contact
             background-color: black
-            h2
+
+            > h2
                 color: white
 
             .worksList
@@ -19,12 +20,21 @@
                 display: grid
                 grid-template-columns: 1fr 1fr
                 justify-content: space-evenly
-                // margin: auto
                 padding: 50px 100px 100px 100px
                 grid-gap: 100px
 
         &.about
             background-color: #f2f2f2
+            height: 100vh
+
+        &.about, &.contact
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+        &.contact
+            height: 100vh
 
 @media (max-width: 767px)
     .worksList

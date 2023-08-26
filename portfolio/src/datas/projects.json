@@ -4,14 +4,13 @@
     "title": "Booki",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
     "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
       "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp"
     ],
     "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     "mission": "Création de la page d'accueil d'une agence de voyage",
-    "tags": ["HTML", "CSS"]
+    "tags": ["HTML", "CSS"],
+    "site": "https://mariecourse.github.io/booki/",
+    "github": "https://github.com/MarieCourse/booki"
   },
   {
     "id": "b9123946",
@@ -22,7 +21,8 @@
     ],
     "description": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
     "mission": "Création d'une page web dynamique avec JavaScript",
-    "tags": ["Javascript", "API"]
+    "tags": ["Javascript", "API"],
+    "github": "https://github.com/MarieCourse/sophie-bluel"
   },
   {
     "id": "c268574",
@@ -33,7 +33,9 @@
     ],
     "description": "Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis.",
     "mission": "Débug et optimisation d'un site de photographe",
-    "tags": ["SEO", "Debug", "Accessiblité", "Lighthouse"]
+    "tags": ["SEO", "Debug", "Accessiblité", "Lighthouse"],
+    "site": "https://mariecourse.github.io/nina-carducci/",
+    "github": "https://github.com/MarieCourse/nina-carducci"
   },
   {
     "id": "d568745",
@@ -44,7 +46,8 @@
     ],
     "description": "Un client qui souhaite ouvrir un site de notation de livres au nom de sa chaîne de librairies “Le Vieux Grimoire” à Lille. Le site s’appellera “Mon Vieux Grimoire”, et permettra aux membres d’ajouter un nouveau livre et de mettre une note visible par le public.",
     "mission": "Développement du back-end d'un site de notation de livres",
-    "tags": ["API", "CRUD"]
+    "tags": ["API", "CRUD"],
+    "github": "https://github.com/MarieCourse/mon-view-grimoire-backend"
   },
   {
     "id": "e146587",
@@ -55,6 +58,7 @@
     ],
     "description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
     "mission": "Création d'une application web de location immobilière avec React",
-    "tags": ["React", "SASS", "React Router", "Animations CSS"]
+    "tags": ["React", "SASS", "React Router", "Animations CSS"],
+    "github": "https://github.com/MarieCourse/kasa"
   }
 ]

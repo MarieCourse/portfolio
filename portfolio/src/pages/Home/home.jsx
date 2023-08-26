@@ -5,7 +5,6 @@ import Presentation from '../../components/Presentation/Presentation';
 import About from '../../components/About/About';
 import './Home.sass';
 import Contact from '../../components/Contact/Contact';
-// import { NavLink } from 'react-router-dom';
 
 function Home() {
   return (

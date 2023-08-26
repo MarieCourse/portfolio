@@ -1,4 +1,5 @@
 import './Contact.sass';
+import Button from '../../components/Button/Button';
 
 function Contact() {
   return (
@@ -9,6 +10,11 @@ function Contact() {
         assumenda, neque ipsam provident labore repellat vero eos architecto
         tempora. Nisi, incidunt!
       </p>
+      <Button
+        link="mailto:meriscarrera@gmail.com"
+        text={'Contactez-moi'}
+        className={'white'}
+      />
     </div>
   );
 }

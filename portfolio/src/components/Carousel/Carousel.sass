@@ -1,15 +1,12 @@
 .carousel
-    display: grid
-    grid-template-columns: 1fr 1fr
-    max-width: 1440px
-    width: 100%
-    margin: 20px 0
-    gap: 20px
+    margin: auto
+    width: 70%
 
     img
+        width: 100%
         border-radius: 25px
         object-fit: cover
-        width: 100%
+        margin: auto
 
 @media (max-width: 767px)
     .carousel
@@ -22,6 +19,3 @@
             img
 
                 width: 11.67px
-
-        .carousel__active
-            border-radius: 10px
