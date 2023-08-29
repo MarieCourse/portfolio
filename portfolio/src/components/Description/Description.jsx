@@ -1,4 +1,3 @@
-// import React, { useState, useRef } from 'react';
 import './Description.sass';
 
 function Description({ title, content }) {

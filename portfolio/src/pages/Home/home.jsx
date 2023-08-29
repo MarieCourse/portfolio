@@ -12,6 +12,15 @@ function Home() {
       <Presentation />
       <div className="home__main__section works" id="works">
         <h2>Works</h2>
+        <p>
+          Projets réalisés dans le cadre de ma formation en tant que
+          développeuse web chez OpenClassrooms. Au cours de cette expérience,
+          j'ai eu l'opportunité d'acquérir les compétences essentielles pour le
+          développement front-end et back-end grâce aux technologies telles que
+          HTML, CSS, JavaScript, React et Node.js, entre autres. J'ai pu
+          également approfondir mes compétences en optimisation et débogage en
+          utilisant des outils tels que Chrome DevTools, Wave et Lighthouse.
+        </p>
         {/* Affichage de la liste des projets en utilisant le composant Card */}
         <div className="worksList">
           {/* Utilisation de map pour parcourir les données des projets depuis le fichier "logementsData" */}

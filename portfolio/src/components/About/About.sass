@@ -1,12 +1,30 @@
-.aboutMe
-    max-width: 1440px
-    width: 60%
+.about
     display: flex
-    flex-direction: row
+    flex-direction: column
     align-items: center
-    justify-content: space-between
+    gap: 30px
 
-    img
-        width: 150px
-        height: 150px
-        padding: 50px
+    &__content
+        max-width: 1440px
+        width: 60%
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+
+        img
+            width: 150px
+            height: 150px
+            padding: 50px
+
+        p
+            text-align: justify
+
+    &__competences
+        >h3
+            font-size: 2rem
+
+        &__icones
+            display: flex
+            gap: 20px
+            font-size: 4rem

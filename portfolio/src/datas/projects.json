@@ -4,9 +4,9 @@
     "title": "Booki",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
     "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki-mockup%20copy.webp"
     ],
-    "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+    "description": "Ma mission consistait à intégrer l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes. J'ai utilisé les langages HTML et CSS pour créer à partir des maquettes, une interface attrayante et conviviale pour les utilisateurs.",
     "mission": "Création de la page d'accueil d'une agence de voyage",
     "tags": ["HTML", "CSS"],
     "site": "https://mariecourse.github.io/booki/",
@@ -17,11 +17,11 @@
     "title": "Sophie Bluel",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel.webp",
     "pictures": [
-      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel-mockup%20copy.webp"
     ],
-    "description": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+    "description": "Envoyée en renfort en tant que développeuse front-end au sein d'une équipe en charge de concevoir le site portfolio d'une architecte d'intérieur. Ma mission consiste à dynamiser le site en mettant l'accent sur le développement de la page de présentation des travaux de l'architecte. Pour cela, je récupère les données depuis l'API, crée la page de connexion du client de manière sécurisée, et mets en place une modale permettant d'uploader de nouveaux médias.",
     "mission": "Création d'une page web dynamique avec JavaScript",
-    "tags": ["Javascript", "API"],
+    "tags": ["Javascript", "CSS", "API"],
     "github": "https://github.com/MarieCourse/sophie-bluel"
   },
   {
@@ -29,11 +29,11 @@
     "title": "Nina Carducci",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-carducci.webp",
     "pictures": [
-      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-mockup%20copy.webp"
     ],
-    "description": "Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis.",
+    "description": "Avec pour mission d'optimiser le site, des actions telles que la conversion des images, l'ajout de balises et d'attributs manquants, l'optimisation de la structure du code, ainsi que la réécriture des textes ont été entreprises. De plus, des améliorations telles que l'ajout d'attributs Alt, l'ajustement du contraste et la réorganisation des balises ont été effectuées pour résoudre les problèmes d'accessibilité. Les rapports Lighthouse et les audits Wave ont mis en évidence les effets positifs de ces améliorations.",
     "mission": "Débug et optimisation d'un site de photographe",
-    "tags": ["SEO", "Debug", "Accessiblité", "Lighthouse"],
+    "tags": ["SEO", "Optimisation", "Accessibilité", "ChromeDev"],
     "site": "https://mariecourse.github.io/nina-carducci/",
     "github": "https://github.com/MarieCourse/nina-carducci"
   },
@@ -42,11 +42,11 @@
     "title": "Mon View Grimoire",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire.webp",
     "pictures": [
-      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire-mockup.webp"
     ],
-    "description": "Un client qui souhaite ouvrir un site de notation de livres au nom de sa chaîne de librairies “Le Vieux Grimoire” à Lille. Le site s’appellera “Mon Vieux Grimoire”, et permettra aux membres d’ajouter un nouveau livre et de mettre une note visible par le public.",
+    "description": "En qualité de développeuse back-end au sein d'un projet de notation de livres, ma responsabilité principale consiste à établir l'API. À cet effet, j'ai conçu et implémenté un modèle logique de données en respectant les normes et réglementations en vigueur. J'ai assuré la gestion sécurisée du stockage des données et mis en place des opérations CRUD en veillant à leur sécurité optimale.",
     "mission": "Développement du back-end d'un site de notation de livres",
-    "tags": ["API", "CRUD"],
+    "tags": ["API", "MongoDB", "Mongoose"],
     "github": "https://github.com/MarieCourse/mon-view-grimoire-backend"
   },
   {
@@ -54,11 +54,11 @@
     "title": "Kasa",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa.webp",
     "pictures": [
-      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa-mockup%20copy.webp"
     ],
-    "description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+    "description": "En tant que développeuse front-end pour une nouvelle plateforme de location immobilière, j'ai été chargée d'initier le projet React et de développer l'ensemble de l'application, y compris la création des composants React et des routes avec React Router, en suivant les maquettes fournies pour garantir une mise en œuvre fidèle et efficace.",
     "mission": "Création d'une application web de location immobilière avec React",
-    "tags": ["React", "SASS", "React Router", "Animations CSS"],
+    "tags": ["HTML", "React", "SASS", "React Router"],
     "github": "https://github.com/MarieCourse/kasa"
   }
 ]

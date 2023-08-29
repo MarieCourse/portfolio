@@ -2,7 +2,7 @@ import React from 'react';
 import './Work.sass';
 import { useParams } from 'react-router-dom';
 import projectsData from '../../datas/projects.json';
-import Carousel from '../../components/Carousel/Carousel';
+import Responsive from '../../components/Responsive/Responsive';
 import FicheTitle from '../../components/FicheTitle/FicheTitle';
 import Tag from '../../components/Tag/Tag';
 import Description from '../../components/Description/Description';
@@ -20,7 +20,7 @@ function Work() {
       <div className="main__content">
         <FicheTitle title={title} location={mission} />
         <Tag tags={tags} />
-        <Carousel pictures={pictures} alt={`${title}`} />
+        <Responsive pictures={pictures} alt={`${title}`} />
         <Description title="Description" content={description} />
         <div className="links">
           {site && <Button link={site} text="Site" className="black" />}

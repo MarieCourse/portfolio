@@ -8,10 +8,11 @@ function AppRouter() {
   return (
     <Router>
       <Routes>
+        <Route path="/cv_maria_carrera.pdf" />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="*" element={<Error />} />
         <Route path="/work/:id" element={<Work />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );
