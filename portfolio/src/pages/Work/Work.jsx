@@ -7,10 +7,16 @@ import FicheTitle from '../../components/FicheTitle/FicheTitle';
 import Tag from '../../components/Tag/Tag';
 import Description from '../../components/Description/Description';
 import Button from '../../components/Button/Button';
+import Error from '../../components/Error/Error';
 
 function Work() {
   const { id } = useParams();
   const selectedProject = projectsData.find((project) => project.id === id);
+  // Vérifiez si selectedProject existe avant de déstructurer ses propriétés
+  if (!selectedProject) {
+    // Gérez le cas où selectedProject est indéfini ou nul
+    return <Error />;
+  }
   // Déstructuration d'objets pour extraire les propriétés individuelles de l'objet  du logement sélectionné..
   const { title, pictures, description, mission, tags, site, github } =
     selectedProject;

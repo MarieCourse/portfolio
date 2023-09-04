@@ -11,8 +11,8 @@ function AppRouter() {
         <Route path="/portfolio/cv_maria_carrera.pdf" />
         <Route path="/portfolio/" element={<Home />} />
         <Route path="/portfolio/home" element={<Home />} />
-        <Route path="/portfolio/work/:id" element={<Work />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/portfolio/:id" element={<Work />} />
+        <Route path="/portfolio/*" element={<Error />} />
       </Routes>
     </Router>
   );
