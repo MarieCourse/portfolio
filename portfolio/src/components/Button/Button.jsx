@@ -5,7 +5,7 @@ function Button({ link, pdfLink, text, className }) {
   if (pdfLink) {
     return (
       <div>
-        <button
+        <a
           href={pdfLink}
           target="_blank"
           rel="noreferrer"
@@ -13,7 +13,7 @@ function Button({ link, pdfLink, text, className }) {
           cursor="pointer"
         >
           {text}
-        </button>
+        </a>
       </div>
     );
   }
