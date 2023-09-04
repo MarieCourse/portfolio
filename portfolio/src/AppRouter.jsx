@@ -8,10 +8,10 @@ function AppRouter() {
   return (
     <Router>
       <Routes>
-        <Route path="/cv_maria_carrera.pdf" />
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/work/:id" element={<Work />} />
+        <Route path="/portfolio/cv_maria_carrera.pdf" />
+        <Route path="/portfolio/" element={<Home />} />
+        <Route path="/portfolio/home" element={<Home />} />
+        <Route path="/portfolio/work/:id" element={<Work />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
