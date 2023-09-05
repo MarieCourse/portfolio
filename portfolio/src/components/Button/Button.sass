@@ -7,24 +7,38 @@
     text-align: center
     display: inline-block
     margin: 30px 0
-    color: black
     cursor: pointer
+    color: black
+    border: 2px solid #262626
 
     &:visited
         color: black
 
+    &:hover
+        transition: 0.3s ease
+
+.red
+    border: 2px solid #D64045
+    color: #D64045
+    &:hover
+        border-color: transparent
+        background-color: #D64045
+        color: white
+
 .black
-    border: 2px solid #262626
+    background-color: transparent
     &:hover
+        border: 2px solid #D64045
+        background-color: #D64045
         color: white
-        background-color: #262626
-        transition: 0.3s ease
 
-.white
-    border: 2px solid white
-    background-color: white
+.blue
+    color: #467599
+    border: 2px solid #467599
 
+    &:visited
+        color: #467599
     &:hover
+        background-color: #467599
+        border-color: transparent
         color: white
-        background-color: #262626
-        transition: 0.3s ease

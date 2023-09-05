@@ -29,8 +29,8 @@ function Work() {
         <Responsive pictures={pictures} alt={`${title}`} />
         <Description title="Description" content={description} />
         <div className="links">
-          {site && <Button link={site} text="Site" className="black" />}
-          {github && <Button link={github} text="Github" className="black" />}
+          {site && <Button link={site} text="Site" className="blue" />}
+          {github && <Button link={github} text="Github" className="blue" />}
         </div>
       </div>
     </div>

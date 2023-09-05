@@ -1,17 +1,6 @@
 import './Header.sass';
 
 function Header() {
-  // const scrollToSection = (sectionId) => {
-  //   const sectionRef = document.getElementById(sectionId);
-  //   if (sectionRef) {
-  //     const offset = sectionRef.getBoundingClientRect().top + window.scrollY;
-  //     window.scrollTo({
-  //       top: offset,
-  //       behavior: 'smooth',
-  //     });
-  //   }
-  // };
-
   return (
     <div className="header">
       {/* Logo de Kasa, en utilisant Link pour rediriger vers la page d'accueil lorsqu'on clique dessus */}

@@ -1,5 +1,6 @@
 .home__main
-    background-color: #f2f2f2
+    background: rgb(214, 64, 69)
+    background: linear-gradient(90deg, rgba(70,117,153,1) 0%, rgba(214,64,69,1) 100%)
     margin: 0
 
     &__section
@@ -14,16 +15,17 @@
             text-align: center
 
         &.works, &.contact
-            background-color: #262626
-
-            > h2, > p
-                color: white
-                width: 80%
+            background-color: #f2f2f2
 
             > p
                 text-align: justify
                 line-height: 1.5
                 font-size: 1rem
+
+        &.works
+            > h2, > p
+                color: #467599
+                width: 80%
 
             .worksList
                 max-width: 1440px
@@ -34,14 +36,9 @@
                 grid-gap: 100px
 
         &.about
-            background-color: #f2f2f2
             height: 100vh
 
         &.contact
             height: 100vh
-
-@media (max-width: 767px)
-    .worksList
-        background-color: inherit
-        padding: 0
-        gap: 20px
+            >h2
+                color: #D64045

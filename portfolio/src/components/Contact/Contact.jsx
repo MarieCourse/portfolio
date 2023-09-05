@@ -13,7 +13,7 @@ function Contact() {
       <Button
         link="mailto:meriscarrera@gmail.com"
         text={'Contactez-moi'}
-        className={'white'}
+        className={'red'}
       />
       <div className="contactMe__icons">
         <NavLink
