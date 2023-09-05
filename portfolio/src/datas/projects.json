@@ -4,7 +4,7 @@
     "title": "Booki",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki.webp",
     "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki-mockup%20copy.webp"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki-mockup.webp"
     ],
     "description": "Ma mission consistait à intégrer l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes. J'ai utilisé les langages HTML et CSS pour créer à partir des maquettes, une interface attrayante et conviviale pour les utilisateurs.",
     "mission": "Création de la page d'accueil d'une agence de voyage",
@@ -17,7 +17,7 @@
     "title": "Sophie Bluel",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel.webp",
     "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel-mockup%20copy.webp"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel-mockup.webp"
     ],
     "description": "Envoyée en renfort en tant que développeuse front-end au sein d'une équipe en charge de concevoir le site portfolio d'une architecte d'intérieur. Ma mission consiste à dynamiser le site en mettant l'accent sur le développement de la page de présentation des travaux de l'architecte. Pour cela, je récupère les données depuis l'API, crée la page de connexion du client de manière sécurisée, et mets en place une modale permettant d'uploader de nouveaux médias.",
     "mission": "Création d'une page web dynamique avec JavaScript",
@@ -29,7 +29,7 @@
     "title": "Nina Carducci",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-carducci.webp",
     "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-mockup%20copy.webp"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-carducci-mockup.webp"
     ],
     "description": "Avec pour mission d'optimiser le site, des actions telles que la conversion des images, l'ajout de balises et d'attributs manquants, l'optimisation de la structure du code, ainsi que la réécriture des textes ont été entreprises. De plus, des améliorations telles que l'ajout d'attributs Alt, l'ajustement du contraste et la réorganisation des balises ont été effectuées pour résoudre les problèmes d'accessibilité. Les rapports Lighthouse et les audits Wave ont mis en évidence les effets positifs de ces améliorations.",
     "mission": "Débug et optimisation d'un site de photographe",
@@ -54,7 +54,7 @@
     "title": "Kasa",
     "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa.webp",
     "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa-mockup%20copy.webp"
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa-mockup.webp"
     ],
     "description": "En tant que développeuse front-end pour une nouvelle plateforme de location immobilière, j'ai été chargée d'initier le projet React et de développer l'ensemble de l'application, y compris la création des composants React et des routes avec React Router, en suivant les maquettes fournies pour garantir une mise en œuvre fidèle et efficace.",
     "mission": "Création d'une application web de location immobilière avec React",

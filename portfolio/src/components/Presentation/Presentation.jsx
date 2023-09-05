@@ -4,7 +4,7 @@ import './Presentation.sass';
 
 function Presentation() {
   const [typedText, setTypedText] = useState('');
-  const textToAnimate = 'Je suis María Carrera, \nDeveloppeuse Web';
+  const textToAnimate = 'Je suis María Carrera, \nDéveloppeuse Web';
   const delay = 80;
   // const draw = (ctx, frameCount) => {
   //   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
