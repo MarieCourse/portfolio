@@ -24,7 +24,7 @@ function Work() {
   return (
     <div className="main" key={id}>
       <div className="main__content">
-        <FicheTitle title={title} location={mission} />
+        <FicheTitle title={title} mission={mission} />
         <Tag tags={tags} />
         <Responsive pictures={pictures} alt={`${title}`} />
         <Description title="Description" content={description} />

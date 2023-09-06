@@ -14,7 +14,7 @@ function About() {
   const pdfPath = process.env.PUBLIC_URL + '/cv_maria_carrera.pdf';
 
   return (
-    <div className="about">
+    <div className="aboutMe">
       <div className="about__content">
         <img src={portrait} alt="Portrait Maria Carrera" />
         <div>

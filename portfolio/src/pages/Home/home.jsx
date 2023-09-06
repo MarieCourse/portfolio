@@ -9,7 +9,9 @@ import Contact from '../../components/Contact/Contact';
 function Home() {
   return (
     <div className="main home__main" id="accueil">
-      <Presentation />
+      <div className="home__main__section">
+        <Presentation />
+      </div>
       <div className="home__main__section works" id="works">
         <h2>Works</h2>
         <p>
@@ -25,9 +27,9 @@ function Home() {
         <div className="worksList">
           {/* Utilisation de map pour parcourir les données des projets depuis le fichier "logementsData" */}
           {projectsData.map((project) => (
-            // {/* /* // Utilisation du composant Card pour afficher chaque logement
+            // {/* /* // Utilisation du composant Card pour afficher chaque projet
             // sous forme de carte */}
-            <Card // Clé unique pour chaque carte (logement)
+            <Card
               key={project.id}
               project={project}
               id={project.id}

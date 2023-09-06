@@ -4,19 +4,21 @@
     margin: 0
 
     &__section
-        padding: 50px 0
         margin: 0
         display: flex
         flex-direction: column
         justify-content: center
         align-items: center
+        max
         > h2
             font-size: 3rem
             text-align: center
 
+        &.works, &.contact, &.about
+            padding: 50px 0
+
         &.works, &.contact
             background-color: #f2f2f2
-
             > p
                 text-align: justify
                 line-height: 1.5
@@ -24,21 +26,35 @@
 
         &.works
             > h2, > p
-                color: #467599
+                max-width: 1440px
                 width: 80%
+                color: #467599
 
             .worksList
                 max-width: 1440px
+                width: 80%
                 display: grid
                 grid-template-columns: 1fr 1fr
                 justify-content: space-evenly
-                padding: 50px 100px 100px 100px
                 grid-gap: 100px
+                margin: 50px 0
 
         &.about
-            height: 100vh
+            display: flex
+            flex-direction: column
+            align-items: center
 
         &.contact
-            height: 100vh
             >h2
                 color: #D64045
+
+@media (max-width:768px)
+    .home__main
+        &__section
+            &.works
+
+                .worksList
+                    width: 90%
+                    padding: 20px
+                    grid-gap: 20px
+                    grid-template-columns: 1fr

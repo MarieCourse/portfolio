@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Presentation.sass';
-// import Canvas from '../Canvas/Canvas';
+import { FaAngleDown } from 'react-icons/fa6';
 
 function Presentation() {
   const [typedText, setTypedText] = useState('');
@@ -31,18 +31,20 @@ function Presentation() {
 
   return (
     <div className="presentation">
-      {/* <Canvas draw={draw} /> */}
-      <div className="presentation__titres">
-        <div className="typing-animation">
-          <h3>
-            {typedText.split('\n').map((line, index) => (
-              <React.Fragment key={index}>
-                {line}
-                {index !== textToAnimate.split('\n').length - 1 && <br />}
-              </React.Fragment>
-            ))}
-          </h3>
-        </div>
+      <div className="typing-animation">
+        <h3>
+          {typedText.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              {index !== textToAnimate.split('\n').length - 1 && <br />}
+            </React.Fragment>
+          ))}
+        </h3>
+      </div>
+      <div className="arrow-down">
+        <a href="/portfolio/#works">
+          <FaAngleDown />
+        </a>
       </div>
     </div>
   );

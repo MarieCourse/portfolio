@@ -1,11 +1,11 @@
-import React from "react";
-import "./FicheTitle.sass";
+import React from 'react';
+import './FicheTitle.sass';
 
-function FicheTitle({ title, location }) {
+function FicheTitle({ title, mission }) {
   return (
-    <div className="titleLocation">
+    <div className="titleDescription">
       <h3>{title}</h3>
-      <p>{location}</p>
+      <p>{mission}</p>
     </div>
   );
 }

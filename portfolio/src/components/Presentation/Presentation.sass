@@ -8,30 +8,59 @@
     50%
         border-color: transparent
 
+@keyframes moveArrow
+    0%, 100%
+        transform: translateY(0)
+
+    50%
+        transform: translateY(-15px)
+
 .presentation
+    max-width: 1440px
+    width: 100%
     background-image: url('../../assets/portrait.png')
     background-repeat: no-repeat
-    background-position: bottom center
+    background-position: bottom right
     background-size: contain
+    color: #f2f2f2
 
-    &__titres
-        max-width: 1440px
-        display: flex
-        flex-direction: column
-        align-items: flex-start
+    .typing-animation
         height: 100vh
-        justify-content: center
-        margin-left: 10%
-        color: #f2f2f2
+        display: flex
+        align-items: center
+        margin: 0 5%
 
-        .typing-animation
-            font-size: 2.5rem
+        > h3
+            font-size: 3rem
             overflow: hidden
-            white-space: nowrap
-            margin: 0
             letter-spacing: 0.08em
             line-height: 1.5
+            display: inline-block
+            animation: typing steps(22), blink 0.5s step-end alternate
+            height: 3.6em
 
+    .arrow-down
+        display: flex
+        justify-content: center
+        position: absolute
+        bottom: 20px
+        left: 50%
+        font-size: 4rem
+        animation: moveArrow 1.5s ease-out 0s infinite
+        >a
+            color: #f2f2f2
+
+@media screen and (min-width: 576px) and (max-width: 1023px)
+    .presentation
+        .typing-animation
             > h3
-                display: inline-block
-                animation: typing steps(22), blink 0.5s step-end alternate
+                font-size: 2.5rem
+
+@media (max-width:768px)
+    .presentation
+        .typing-animation
+            align-items: flex-start
+            justify-content: center
+            > h3
+                margin-top: 70px
+                font-size: 2rem
