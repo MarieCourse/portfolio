@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6a2dda42.css",
-    "main.js": "/portfolio/static/js/main.c569330f.js",
+    "main.css": "/portfolio/static/css/main.5bcffec1.css",
+    "main.js": "/portfolio/static/js/main.7fad1a0f.js",
     "static/media/portrait.png": "/portfolio/static/media/portrait.ccf228fe5d6eb23494cd.png",
     "static/media/portrait-maria-carrera.png": "/portfolio/static/media/portrait-maria-carrera.68572a7921b3de90256a.png",
     "index.html": "/portfolio/index.html",
-    "main.6a2dda42.css.map": "/portfolio/static/css/main.6a2dda42.css.map",
-    "main.c569330f.js.map": "/portfolio/static/js/main.c569330f.js.map"
+    "main.5bcffec1.css.map": "/portfolio/static/css/main.5bcffec1.css.map",
+    "main.7fad1a0f.js.map": "/portfolio/static/js/main.7fad1a0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a2dda42.css",
-    "static/js/main.c569330f.js"
+    "static/css/main.5bcffec1.css",
+    "static/js/main.7fad1a0f.js"
   ]
 }
