@@ -12,12 +12,12 @@ import Error from '../../components/Error/Error';
 function Work() {
   const { id } = useParams();
   const selectedProject = projectsData.find((project) => project.id === id);
-  // Vérifiez si selectedProject existe avant de déstructurer ses propriétés
+  // Vérifie si selectedProject existe avant de déstructurer ses propriétés
   if (!selectedProject) {
-    // Gérez le cas où selectedProject est indéfini ou nul
+    // Gére le cas où selectedProject est indéfini ou nul
     return <Error />;
   }
-  // Déstructuration d'objets pour extraire les propriétés individuelles de l'objet  du logement sélectionné..
+  // Déstructuration d'objets pour extraire les propriétés individuelles de l'objet  du projet sélectionné.
   const { title, pictures, description, mission, tags, site, github } =
     selectedProject;
 
