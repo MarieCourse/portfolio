@@ -39,7 +39,11 @@ function Nav() {
       </a>
       <ul className="navbar__links">
         <li className="navbar__item">
-          <Link to="/portfolio/" className="navbar__link" onClick={closeNav}>
+          <Link
+            to="/portfolio/#accueil"
+            className="navbar__link"
+            onClick={closeNav}
+          >
             ACCUEIL
           </Link>
         </li>

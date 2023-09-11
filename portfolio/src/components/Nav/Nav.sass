@@ -2,7 +2,7 @@
   display: flex
   flex-wrap: wrap
   align-items: center
-  justify-content: space-between
+  justify-content: space-evenly
   position: fixed
   top: 0
   width: 100%
@@ -19,11 +19,12 @@
     font-size: 1.2rem
     color: inherit
     letter-spacing: 1.5px
-    margin-left: 2rem
 
   &__links
     display: flex
-    gap: 50px
+    gap: 40px
+    position: relative
+    left: 10vw
 
   &__link
     font-weight: 500
@@ -44,6 +45,10 @@
 
 @media screen and (max-width: 767px)
   .navbar
+    justify-content: space-between
+    &__logo
+      margin-left: 2rem
+
     &__links
       flex-direction: column
       justify-content: center
