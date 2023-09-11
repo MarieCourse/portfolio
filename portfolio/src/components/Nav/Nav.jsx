@@ -10,13 +10,14 @@ function Nav() {
   const handleShowLinks = () => {
     setShowLinks(!showLinks);
   };
-
+  // Fermeture de la Nav après avoir cliqué sur un lien
   const closeNav = () => {
     if (showLinks) {
       setShowLinks(false);
     }
   };
 
+  //Localisation, navigation vers la section selectionnée + fermeture du menu
   useEffect(() => {
     const targetSection = location.hash.substring(1);
     if (location.pathname === '/portfolio/' && location.hash) {
@@ -25,6 +26,7 @@ function Nav() {
     }
   }, [location]);
 
+  // Déplacement vers la section correspondante
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {

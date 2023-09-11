@@ -6,13 +6,6 @@ function Presentation() {
   const [typedText, setTypedText] = useState('');
   const textToAnimate = 'Je suis María Carrera, \nDéveloppeuse Web';
   const delay = 80;
-  // const draw = (ctx, frameCount) => {
-  //   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-  //   ctx.fillStyle = '#000000';
-  //   ctx.beginPath();
-  //   ctx.arc(50, 100, 20 * Math.sin(frameCount * 0.05) ** 2, 0, 2 * Math.PI);
-  //   ctx.fill();
-  // };
 
   useEffect(() => {
     let currentIndex = 0;
@@ -33,6 +26,7 @@ function Presentation() {
     <div className="presentation">
       <div className="typing-animation">
         <h3>
+          {/* Ajout d'un saut de ligne après chaque '\n' dans le texte */}
           {typedText.split('\n').map((line, index) => (
             <React.Fragment key={index}>
               {line}
@@ -41,6 +35,7 @@ function Presentation() {
           ))}
         </h3>
       </div>
+      {/* Icone pour descendre vers le contenu de la page */}
       <div className="arrow-down">
         <a href="/portfolio/#works">
           <FaAngleDown />

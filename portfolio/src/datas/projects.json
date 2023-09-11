@@ -6,7 +6,7 @@
     "pictures": [
       "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/booki-mockup.webp"
     ],
-    "description": "Ma mission consistait à intégrer l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes. J'ai utilisé les langages HTML et CSS pour créer à partir des maquettes, une interface attrayante et conviviale pour les utilisateurs.",
+    "description": "Ma mission consistait à intégrer l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes. J'ai utilisé les langages HTML et CSS pour créer à partir des maquettes une interface attrayante et conviviale pour les utilisateurs. \nCette expérience m'a permis d'acquérir des compétences solides en intégration web, notamment dans la manipulation de HTML et CSS pour concevoir des interfaces utilisateur intuitives et esthétiques. J'ai également développé une sensibilité particulière pour l'expérience utilisateur, cherchant toujours à améliorer la convivialité des interfaces que je crée.",
     "mission": "Création de la page d'accueil d'une agence de voyage",
     "tags": ["HTML", "CSS"],
     "site": "https://mariecourse.github.io/booki/",
@@ -19,7 +19,7 @@
     "pictures": [
       "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/sophie-bluel-mockup.webp"
     ],
-    "description": "Envoyée en renfort en tant que développeuse front-end au sein d'une équipe en charge de concevoir le site portfolio d'une architecte d'intérieur. Ma mission consiste à dynamiser le site en mettant l'accent sur le développement de la page de présentation des travaux de l'architecte. Pour cela, je récupère les données depuis l'API, crée la page de connexion du client de manière sécurisée, et mets en place une modale permettant d'uploader de nouveaux médias.",
+    "description": "Envoyée en renfort en tant que développeuse front-end au sein d'une équipe en charge de concevoir le site portfolio d'une architecte d'intérieur. Ma mission consiste à dynamiser le site en mettant l'accent sur le développement de la page de présentation des travaux de l'architecte. Pour cela, je récupère les données depuis l'API, crée la page de connexion du client de manière sécurisée, et mets en place une modale permettant d'uploader de nouveaux médias. \nAu cour de ce projet, j'ai pu acquérir plusieurs compétences en Javascript, notamment la récupération de données utilisateurs via des formulaires, la manipulation des éléments du DOM pour créer une expérience utilisateur fluide et interactive, la gestion des événements utilisateurs et la maîtrise de l'interaction avec une API dans les deux sens.",
     "mission": "Création d'une page web dynamique avec JavaScript",
     "tags": ["Javascript", "CSS", "API"],
     "github": "https://github.com/MarieCourse/sophie-bluel"
@@ -31,23 +31,11 @@
     "pictures": [
       "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/nina-carducci-mockup.webp"
     ],
-    "description": "Avec pour mission d'optimiser le site, des actions telles que la conversion des images, l'ajout de balises et d'attributs manquants, l'optimisation de la structure du code, ainsi que la réécriture des textes ont été entreprises. De plus, des améliorations telles que l'ajout d'attributs Alt, l'ajustement du contraste et la réorganisation des balises ont été effectuées pour résoudre les problèmes d'accessibilité. Les rapports Lighthouse et les audits Wave ont mis en évidence les effets positifs de ces améliorations.",
+    "description": "Avec pour mission d'optimiser le site, des actions telles que la conversion des images, l'ajout de balises et d'attributs manquants, l'optimisation de la structure du code, ainsi que la réécriture des textes ont été entreprises. De plus, des améliorations telles que l'ajout d'attributs Alt, l'ajustement du contraste et la réorganisation des balises ont été effectuées pour résoudre les problèmes d'accessibilité. Les rapports Lighthouse et les audits Wave ont mis en évidence les effets positifs de ces améliorations. \nDans la réalisation de ce projet j'ai renforcé des compétences essentielles en matière de référencement web (SEO), y compris la mise en œuvre d'une stratégie de référencement local en utilisant Schema.org, et les balises meta et Google Rich Snippets pour améliorer la visibilité du site sur les moteurs de recherche. Ma connaissance des normes d'accessibilité pour les sites internet m'a permis d'optimiser l'accessibilité du site pour tous les utilisateurs. \nEnfin, j'ai développé des compétences en débogage de sites web grâce aux Chrome DevTools, ce qui m'a permis d'identifier et de résoudre efficacement les problèmes techniques. J'ai également rédigé un cahier de recette pour tester le site, garantissant son bon fonctionnement et sa qualité globale.",
     "mission": "Débug et optimisation d'un site de photographe",
     "tags": ["SEO", "Optimisation", "Accessibilité", "ChromeDev"],
     "site": "https://mariecourse.github.io/nina-carducci/",
     "github": "https://github.com/MarieCourse/nina-carducci"
-  },
-  {
-    "id": "mon-view-grimoire",
-    "title": "Mon View Grimoire",
-    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire.webp",
-    "pictures": [
-      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire-mockup.webp"
-    ],
-    "description": "En qualité de développeuse back-end au sein d'un projet de notation de livres, ma responsabilité principale consiste à établir l'API. À cet effet, j'ai conçu et implémenté un modèle logique de données en respectant les normes et réglementations en vigueur. J'ai assuré la gestion sécurisée du stockage des données et mis en place des opérations CRUD en veillant à leur sécurité optimale.",
-    "mission": "Développement du back-end d'un site de notation de livres",
-    "tags": ["API", "MongoDB", "Mongoose"],
-    "github": "https://github.com/MarieCourse/mon-view-grimoire-backend"
   },
   {
     "id": "kasa",
@@ -56,9 +44,21 @@
     "pictures": [
       "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/kasa-mockup.webp"
     ],
-    "description": "En tant que développeuse front-end pour une nouvelle plateforme de location immobilière, j'ai été chargée d'initier le projet React et de développer l'ensemble de l'application, y compris la création des composants React et des routes avec React Router, en suivant les maquettes fournies pour garantir une mise en œuvre fidèle et efficace.",
-    "mission": "Création d'une application web de location immobilière avec React",
+    "description": "En tant que développeuse front-end pour une nouvelle plateforme de location immobilière, j'ai été chargée d'initier le projet React et de développer l'ensemble de l'application, y compris la création des composants React et des routes avec React Router, en suivant les maquettes fournies pour garantir une mise en œuvre fidèle et efficace. \nAu cours de ce projet, j'ai appris à développer une interface web attrayante en utilisant Sass pour la gestion des styles, ce qui a permis d'apporter une esthétique moderne au site. De plus, j'ai mis en œuvre des animations CSS pour améliorer l'expérience utilisateur et rendre le site plus interactif. En développant des éléments de l'interface du site web grâce à des composants React, j'ai appris à structurer efficacement le code et à le rendre modulaire. \nCette compétence s'est avérée essentielle pour maintenir le projet et ajouter de nouvelles fonctionnalités de manière efficace. Dans l'ensemble, ce projet m'a permis d'acquérir un ensemble complet de compétences en développement front-end, de la création de l'interface utilisateur à la mise en œuvre de fonctionnalités complexes, et ces compétences seront un atout précieux pour ma carrière future dans le domaine du développement web.",
+    "mission": "Création d'une application web de location immobilière avec React. ",
     "tags": ["HTML", "React", "SASS", "React Router"],
     "github": "https://github.com/MarieCourse/kasa"
+  },
+  {
+    "id": "mon-view-grimoire",
+    "title": "Mon View Grimoire",
+    "cover": "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire.webp",
+    "pictures": [
+      "https://raw.githubusercontent.com/MarieCourse/portfolio/main/portfolio/src/assets/mon-view-grimoire-mockup.webp"
+    ],
+    "description": "En qualité de développeuse back-end au sein d'un projet de notation de livres, ma responsabilité principale consiste à établir l'API. À cet effet, j'ai conçu et implémenté un modèle logique de données en respectant les normes et réglementations en vigueur. J'ai assuré la gestion sécurisée du stockage des données, mettant en place des mécanismes de sécurité robustes pour garantir la confidentialité et l'intégrité des informations. De plus, j'ai mis en œuvre les opérations CRUD de manière sécurisée, en utilisant des pratiques de développement recommandées pour prévenir les vulnérabilités et les risques de sécurité. \nCette expérience m'a permis d'acquérir des compétences essentielles en matière de développement back-end et de garantir la fiabilité et la sécurité de l'API pour le projet de notation de livres.",
+    "mission": "Développement du back-end d'un site de notation de livres",
+    "tags": ["API", "MongoDB", "Mongoose"],
+    "github": "https://github.com/MarieCourse/mon-view-grimoire-backend"
   }
 ]

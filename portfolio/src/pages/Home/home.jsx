@@ -25,10 +25,7 @@ function Home() {
         </p>
         {/* Affichage de la liste des projets en utilisant le composant Card */}
         <div className="worksList">
-          {/* Utilisation de map pour parcourir les données des projets depuis le fichier "logementsData" */}
           {projectsData.map((project) => (
-            // {/*Utilisation du composant Card pour afficher chaque projet
-            // sous forme de carte */}
             <Card
               key={project.id}
               project={project}

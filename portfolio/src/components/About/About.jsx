@@ -19,18 +19,17 @@ function About() {
         <img src={portrait} alt="Portrait Maria Carrera" />
         <div>
           <p>
-            Passionnée par le développement web et précédemment galeriste
-            indépendante en reconversion professionnelle, j'ai brillamment
-            finalisé ma formation dans ce domaine. Mon profil ingénieux et bien
-            organisé me permet de m'intégrer harmonieusement au sein d'équipes
-            de travail diverses. Attirée par les défis stimulants, je suis
-            constamment en quête de nouvelles connaissances.
+            Galeriste indépendante en reconversion professionnelle, passionnée
+            par le développement web. J'ai récemment achevé ma formation dans ce
+            domaine chez OpenclassRooms. Mon profil ingénieux et bien organisé
+            me permet de m'intégrer harmonieusement au sein d'équipes de travail
+            diverses. Attirée par les défis stimulants, je suis constamment en
+            quête de nouvelles connaissances.
           </p>
           <p>
-            Forte de mes compétences en communication, je suis à l'aise dans les
-            échanges avec des interlocuteurs variés. Mon parcours atteste de ma
-            détermination à exceller dans le domaine du développement web, où je
-            suis prête à mettre en œuvre les compétences que j'ai acquises.
+            Mon parcours atteste de ma détermination à exceller dans ce domaine,
+            où je suis prête à mettre en œuvre les compétences que j'ai
+            acquises.
           </p>
         </div>
       </div>
