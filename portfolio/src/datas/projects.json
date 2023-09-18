@@ -59,6 +59,6 @@
     "description": "En qualité de développeuse back-end au sein d'un projet de notation de livres, ma responsabilité principale consiste à établir l'API. À cet effet, j'ai conçu et implémenté un modèle logique de données en respectant les normes et réglementations en vigueur. J'ai assuré la gestion sécurisée du stockage des données, mettant en place des mécanismes de sécurité robustes pour garantir la confidentialité et l'intégrité des informations. De plus, j'ai mis en œuvre les opérations CRUD de manière sécurisée, en utilisant des pratiques de développement recommandées pour prévenir les vulnérabilités et les risques de sécurité. \nCette expérience m'a permis d'acquérir des compétences essentielles en matière de développement back-end et de garantir la fiabilité et la sécurité de l'API pour le projet de notation de livres.",
     "mission": "Développement du back-end d'un site de notation de livres",
     "tags": ["API", "MongoDB", "Mongoose"],
-    "github": "https://github.com/MarieCourse/mon-view-grimoire-backend"
+    "github": "https://github.com/MarieCourse/mon-view-grimoire"
   }
 ]
