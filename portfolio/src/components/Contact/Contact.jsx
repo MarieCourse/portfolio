@@ -17,7 +17,7 @@ function Contact() {
       />
       <div className="contactMe__icons">
         <NavLink
-          to="https://www.linkedin.com/in/maria-carrera/"
+          to="https://www.linkedin.com/in/maria-carrera-france/"
           target="_blank"
         >
           <FaLinkedinIn className="icon" />
