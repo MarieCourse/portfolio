@@ -34,7 +34,7 @@ function Presentation() {
           ))}
         </h3>
       </div>
-      <a href="/#about" className="arrow-down">
+      <a href="/portfolio/#about" className="arrow-down">
         <FaAngleDown />
       </a>
     </div>

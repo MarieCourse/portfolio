@@ -20,7 +20,7 @@ function Nav() {
   //Localisation, navigation vers la section selectionnée + fermeture du menu
   useEffect(() => {
     const targetSection = location.hash.substring(1);
-    if (location.pathname === '/' && location.hash) {
+    if (location.pathname === '/portfolio/' && location.hash) {
       scrollToSection(targetSection);
       closeNav();
     }
@@ -36,13 +36,13 @@ function Nav() {
 
   return (
     <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
-      <a href="/" className="navbar__logo" onClick={closeNav}>
+      <a href="/portfolio/" className="navbar__logo" onClick={closeNav}>
         María Carrera
       </a>
       <ul className="navbar__links">
         <li className="navbar__item">
           <Link
-            to="/#accueil"
+            to="/portfolio/#accueil"
             className="navbar__link"
             onClick={closeNav}
           >
@@ -51,7 +51,7 @@ function Nav() {
         </li>
         <li className="navbar__item">
           <Link
-            to="/#about"
+            to="/portfolio/#about"
             className="navbar__link"
             onClick={closeNav}
           >
@@ -60,7 +60,7 @@ function Nav() {
         </li>
         <li className="navbar__item">
           <Link
-            to="/#experience"
+            to="/portfolio/#experience"
             className="navbar__link"
             onClick={closeNav}
           >
@@ -69,7 +69,7 @@ function Nav() {
         </li>
         <li className="navbar__item">
           <Link
-            to="/#works"
+            to="/portfolio/#works"
             className="navbar__link"
             onClick={closeNav}
           >
@@ -78,7 +78,7 @@ function Nav() {
         </li>
         <li className="navbar__item">
           <Link
-            to="/#contact"
+            to="/portfolio/#contact"
             className="navbar__link"
             onClick={closeNav}
           >

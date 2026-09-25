@@ -7,11 +7,10 @@ import Error from './components/Error/Error';
 function AppRouter() {
   return (
     <Routes>
-      <Route path="/cv_maria_carrera.pdf" />
-      <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/:id" element={<Work />} />
-      <Route path="/*" element={<Error />} />
+      <Route path="/portfolio/" element={<Home />} />
+      <Route path="/portfolio//home" element={<Home />} />
+      <Route path="/portfolio/:id" element={<Work />} />
+      <Route path="/portfolio/*" element={<Error />} />
     </Routes>
   );
 }

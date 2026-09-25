@@ -38,8 +38,8 @@ function Work() {
         </div>
       </div>
       <div className="work__links">
-        {site && <a href={site} className="button secondary">Site</a>}
-        {github && <a href={github} className="button secondary">Github</a>}
+        {site && <a href={site} className="button tertiary">Site</a>}
+        {github && <a href={github} className="button tertiary">Github</a>}
       </div>
     </div>
   );

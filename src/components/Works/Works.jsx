@@ -17,7 +17,7 @@ function Works() {
       </p>
       <div className="works__list">
         {projectsData.map((project) => (
-          <a href={`/${project.id}`} className="works__card">
+          <a href={`/portfolio/${project.id}`} className="works__card" key={project.id}>
             <h2>{project.title}</h2>
             <span></span>
             <img src={project.cover} alt={project.title}/>
