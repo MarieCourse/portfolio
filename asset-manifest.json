@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.05f8bbb9.css",
-    "main.js": "/portfolio/static/js/main.70d948a8.js",
+    "main.css": "/portfolio/static/css/main.bbe5bf54.css",
+    "main.js": "/portfolio/static/js/main.e9d9cf4f.js",
     "static/media/portrait-1440px.png": "/portfolio/static/media/portrait-1440px.a237aba9cfa75d934d34.png",
     "static/media/portrait-768px.png": "/portfolio/static/media/portrait-768px.e52d33688f422ec0a716.png",
     "static/media/portrait-425px.png": "/portfolio/static/media/portrait-425px.48b2e0851d04d9a9c851.png",
     "static/media/portrait-maria-carrera.png": "/portfolio/static/media/portrait-maria-carrera.68572a7921b3de90256a.png",
     "index.html": "/portfolio/index.html",
-    "main.05f8bbb9.css.map": "/portfolio/static/css/main.05f8bbb9.css.map",
-    "main.70d948a8.js.map": "/portfolio/static/js/main.70d948a8.js.map"
+    "main.bbe5bf54.css.map": "/portfolio/static/css/main.bbe5bf54.css.map",
+    "main.e9d9cf4f.js.map": "/portfolio/static/js/main.e9d9cf4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.05f8bbb9.css",
-    "static/js/main.70d948a8.js"
+    "static/css/main.bbe5bf54.css",
+    "static/js/main.e9d9cf4f.js"
   ]
 }
