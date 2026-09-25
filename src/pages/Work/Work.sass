@@ -1,0 +1,117 @@
+@use '../../assets/variables' as *
+
+.work
+    width: 90%
+    margin: 82px auto 70px auto
+    padding: 56px 0
+    display: flex
+    flex-direction: column
+    gap: 40px
+    align-items: center
+
+    &__title
+        h3, p
+            margin: 0
+            padding: 5px
+            color: $dark
+            text-align: center
+
+        h3
+            font-size: 3rem
+            font-weight: 500
+
+        p
+            font-size: 1.5rem
+
+    &__tags
+        display: flex
+        flex-direction: row
+        gap: 10px
+        justify-content: space-around
+
+        p
+            min-width: 115px
+            color: white
+            background-color: $accent2
+            border-radius: 15px
+            padding: 5px 10px
+            font-size: 0.875rem
+            text-align: center
+            display: inline-block
+            margin: 0
+    &__img
+        margin: auto
+        width: 80%
+
+        img
+            width: 100%
+            max-height: 1000px
+            border-radius: 25px
+            object-fit: cover
+            margin: auto
+
+    &__description
+        font-weight: 400
+        margin: auto
+        position: relative
+
+        > h4, >div
+            width: 80%
+            margin: auto
+        > h4
+            border-radius: 20px
+            font-weight: 400
+            color: white
+            background-color: $accent2
+            font-size: 1.5rem
+            text-align: left
+            padding: 5px 30px
+            position: relative
+            z-index: 2
+
+        > div
+            border-radius: 0 0 20px 20px
+            background-color: $light
+            padding: 50px 30px 30px 30px
+            text-align: justify
+            position: relative
+            top: -20px
+            z-index: 1
+            > p
+                line-height: 1.5
+                font-size: 1.125rem
+    &__links
+        display: flex
+        flex-direction: column
+        gap: 20px
+        justify-content: space-around
+
+@media (max-width: 767px)
+.work
+    &__title
+        margin-bottom: 5px
+        p
+            font-size: 1.75rem
+
+    &__tags
+        flex-wrap: wrap
+
+        p
+            min-width: 84px
+            line-height: 14.26px
+            font-size: 1rem
+
+
+@media (max-width: 575px)
+.work
+    &__title
+        p
+            font-size: 1.5rem
+    &__img
+        width: 100%
+
+@media (min-width: 575px)
+.work
+    &__links
+        flex-direction: row
+

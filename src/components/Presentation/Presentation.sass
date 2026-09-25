@@ -1,0 +1,67 @@
+@use '../../assets/variables' as *
+
+@keyframes typing
+    from
+        width: 0
+    to
+        width: 100
+
+@keyframes blink
+    50%
+        border-color: transparent
+
+@keyframes moveArrow
+    0%, 100%
+        transform: translateY(0)
+
+    50%
+        transform: translateY(-15px)
+
+.presentation
+    width: 100%
+    background-image: url('../../assets/portrait-1440px.png')
+    background-repeat: no-repeat
+    background-position: bottom right
+    background-size: contain
+    color: $accent
+
+    .typing-animation
+        height: 100vh
+        display: flex
+        align-items: center
+        margin: 0 5%
+
+        > h3
+            font-size: 2rem
+            letter-spacing: 0.08em
+            line-height: 1.5
+            display: inline-block
+            animation: typing steps(22), blink 0.5s step-end alternate
+            height: 5em
+
+    .arrow-down
+        display: flex
+        justify-content: center
+        position: absolute
+        bottom: 20px
+        left: 50%
+        font-size: 4rem
+        animation: moveArrow 1.5s ease-out 0s infinite
+        color: $accent
+
+@media (max-width: 768px)
+    .presentation
+        background-image: url('../../assets/portrait-768px.png')
+        .typing-animation
+            align-items: flex-start
+            justify-content: center
+            > h3
+                margin-top: 100px
+
+@media (max-width: 500px)
+    .presentation
+        background-image: url('../../assets/portrait-425px.png')
+        .typing-animation
+            > h3
+                font-size: 2rem
+                color: $accent
